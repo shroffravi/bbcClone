@@ -1,0 +1,153 @@
+img {
+	max-height: 100%;
+	max-width:100%;
+	padding:5px;
+}
+
+.font {
+	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+}
+
+
+.head-nav {
+	background-color: none;
+	height: 30px;
+	}
+
+.head-nav-2 {
+	height: 30px;
+	background-color: #bb1919;
+	}
+
+.head-nav-links {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+
+}
+
+.head-nav-links-disp {
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+.head-nav-links-disp, a, a:visited {
+	text-decoration: none;
+	display: block;
+	padding:8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+	font-weight: bold;
+	font-color:#ffffff;
+
+}
+
+.head-nav-links-logo {
+	background-color: none;
+	padding-left: 0px;
+}
+
+.head-nav-links-signin {
+	background-color: none;
+	padding-left: 20px;
+}
+
+.clear-float{
+	clear:both;
+}
+
+.news-branding-logo {
+	background-color: #bb1919;
+	height: 56px;
+}
+
+.news-branding-text {
+	margin: 15px 0px 0px;
+	padding:8px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+	font-weight: bold;
+	color:#ffffff;
+	font-size:30px;
+}
+
+.head-nav-links-2 {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+
+}
+
+.head-nav-links-2-disp {
+	float: left;
+	border-right:1px solid #bbb;
+
+}
+
+.head-nav-links-2-disp, a, a:visited {
+	text-decoration: none;
+	display: block;
+	padding:6px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+	font-weight: bold;
+	font-color:#ffffff;
+	font-size: 13px;
+
+}
+.news-text-logo {
+	background-color: #ffffff;
+	height: 56px;
+}
+.news-branding-text-2 {
+	margin: 15px 0px 0px;
+	padding:8px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+	color:#000000;
+	font-size:20px;
+}
+.advertisement {
+	background-color: none;
+	height: 288px;
+}
+
+.layout-6 {
+	background-color: none;
+	width: 930px;
+	height: 358px;
+	float: left;
+	
+}
+.layout-7 {
+	background-color: none;
+	border:1px;
+	width: 310px;
+	height: 316px;
+	float: left;
+
+}
+
+.layout-8 {
+	background-color: grey;
+	border:1px;
+	width: 300px;
+	height: 990px;
+	float: right;
+}
+
+.empty {
+	background-color: #ddd;
+	height: 56px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
