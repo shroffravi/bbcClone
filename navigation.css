@@ -1,153 +1,124 @@
-img {
-	max-height: 100%;
-	max-width:100%;
-	padding:5px;
+.clearfix::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+}
+body {
+	margin: 0px;
 }
 
-.font {
-	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
-}
-
-
-.head-nav {
-	background-color: none;
-	height: 30px;
-	}
-
-.head-nav-2 {
-	height: 30px;
-	background-color: #bb1919;
-	}
-
-.head-nav-links {
-	list-style-type: none;
-	margin: 0;
-	padding:0;
+.head-nav-flex-container {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px;
+  border-color: #ddd;
 
 }
 
-.head-nav-links-disp {
-	float: left;
-	border-right:1px solid #bbb;
+.head-nav-flex-container > a {
+  padding: 13px 22.5px;
+  font-size: 14px;
+  color: white;
 }
 
-.head-nav-links-disp, a, a:visited {
+.head-nav-flex-container > img {
+  padding: 8px;
+}
+
+.head-nav-text {
+	font-size: 0.875em;
 	text-decoration: none;
-	display: block;
-	padding:8px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
 	font-weight: bold;
-	font-color:#ffffff;
-
-}
-
-.head-nav-links-logo {
-	background-color: none;
-	padding-left: 0px;
-}
-
-.head-nav-links-signin {
-	background-color: none;
-	padding-left: 20px;
-}
-
-.clear-float{
-	clear:both;
-}
-
-.news-branding-logo {
-	background-color: #bb1919;
-	height: 56px;
-}
-
-.news-branding-text {
-	margin: 15px 0px 0px;
-	padding:8px;
-	padding-top: 8px;
-	padding-bottom: 0px;
 	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
-	font-weight: bold;
-	color:#ffffff;
-	font-size:30px;
 }
 
-.head-nav-links-2 {
-	list-style-type: none;
-	margin: 0;
-	padding:0;
+.head-nav-text:link, .head-nav-text:visited {color:black;  } 
+.head-nav-text:hover, .head-nav-text:active {border-top: 5px black; background-color: #ddd;}
 
-}
-
-.head-nav-links-2-disp {
-	float: left;
-	border-right:1px solid #bbb;
-
-}
-
-.head-nav-links-2-disp, a, a:visited {
-	text-decoration: none;
-	display: block;
-	padding:6px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
-	font-weight: bold;
-	font-color:#ffffff;
-	font-size: 13px;
-
-}
-.news-text-logo {
-	background-color: #ffffff;
-	height: 56px;
-}
-.news-branding-text-2 {
-	margin: 15px 0px 0px;
-	padding:8px;
-	padding-top: 8px;
-	padding-bottom: 0px;
-	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
-	color:#000000;
-	font-size:20px;
-}
-.advertisement {
-	background-color: none;
-	height: 288px;
-}
-
-.layout-6 {
-	background-color: none;
-	width: 930px;
-	height: 358px;
-	float: left;
-	
-}
-.layout-7 {
-	background-color: none;
-	border:1px;
-	width: 310px;
-	height: 316px;
-	float: left;
-
-}
-
-.layout-8 {
-	background-color: grey;
-	border:1px;
-	width: 300px;
-	height: 990px;
-	float: right;
-}
-
-.empty {
-	background-color: #ddd;
-	height: 56px;
-}
-
-.center {
+.head-nav-list-dropdwn:hover .head-nav-dropdown-content {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+  text-align: left;
+  margin: 0px;
 }
+
+.head-nav-dropdown-content {
+  display: none;
+  position: absolute;
+  left:0px;
+  top:40px;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.head-nav-dropdown-content a {
+color: black;
+padding: 10px 100px;
+padding-left: 10px;
+text-decoration: none;
+display: inline-block;
+font-size: 0.875em;
+font-weight: bold;
+font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+}
+
+
+
+.font-family-1 {
+	font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+}
+
+/***** Second dropdown menu *****/
+
+.nav-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #bb1919;
+
+}
+
+.nav-flex-container > div {
+  margin: auto;
+  padding: 8px;
+  font-size: 14px;
+  color: white;
+}
+
+.nav-text:link, .nav-text:visited {color:black;  } 
+.nav-text:hover, .nav-text:active {border: 5px white; }
+
+.nav-text-dropbtn:hover .nav-text-dropdown-content {
+  display: block;
+}
+
+.nav-text-dropdown-content {
+  display: none;
+  position: absolute;
+  left:0px;
+  top:130px;
+  background-color: black;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.nav-text-dropdown-content a {
+color: white;
+padding: 20px 100px;
+padding-left: 10px;
+text-decoration: none;
+display: inline-block;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #ddd;
+font-size: 0.875em;
+font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+  
+}
+
+
+
+
